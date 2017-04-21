@@ -11,7 +11,7 @@ public class UtilsTest {
         String input = "1234";
         Assert.assertEquals("1234", input);
         Assert.assertNotNull(input);
-        Assert.assertNotEquals("", input);
+        Assert.assertNotSame("", input);
     }
 
     @org.junit.Test
