@@ -7,5 +7,5 @@ Build:
 
 Consume:
 - send a post request with a body parameter data = {base64 json} with the format {"flights": [4,9,8,11,14],"steps" : 2}
-- example: POST to http://localhost:8080/staircase/webapi/staircase data=eyJmbGlnaHRzIjogWzQsOSw4LDExLDcsMjAsMTRdLCJzdGVwcyIgOiAyfQ== ({"flights": [4,9,8,11,7,20,14],"steps" : 2}) returns {"minStrides":50}
+- example: POST to http://localhost:8080/staircase/webapi/stairwell data=eyJmbGlnaHRzIjogWzQsOSw4LDExLDcsMjAsMTRdLCJzdGVwcyIgOiAyfQ== ({"flights": [4,9,8,11,7,20,14],"steps" : 2}) returns {"minStrides":50}
 
